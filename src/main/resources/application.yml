@@ -1,0 +1,26 @@
+spring:
+  mongodb:
+    host: localhost
+    port: 27017
+    database: library_management
+
+  jackson:
+    default-property-inclusion: NON_NULL
+    serialization:
+      indent-output: true
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+supabase:
+  jwt:
+    secret: "qN1rsGf6PyPsS7qAtXbL6fPAtwjIyDydBfp/dNwTFqmtWlewvcuuEBZd4ObEGDeOQ17jjE9dJeqeSrYYSZoWVA=="
