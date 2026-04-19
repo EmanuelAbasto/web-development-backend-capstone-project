@@ -1,6 +1,6 @@
 spring:
   mongodb:
-    uri: ${SPRING_DATA_MONGODB_URI:mongodb+srv://Emanuel:79708797ea65514444ea@web-development.khfadhl.mongodb.net/capstone_db?retryWrites=true&w=majority}
+    uri: ${SPRING_DATA_MONGODB_URI:mongodb+srv://Emanuel:79708797ea65514444ea@web-development.khfadhl.mongodb.net/capstone_db?retryWrites=true&w=majority&authSource=admin}
 
   jackson:
     default-property-inclusion: NON_NULL
